@@ -1,0 +1,40 @@
+//KR
+@font-face {
+  font-family: 'NotoSerifKR';
+  src: url(/font/NotoSerifKR-VariableFont_wght.ttf) format('truetype'), url(/font/NotoSerifKR-VariableFont_wght.woff) format('woff');
+}
+
+//EN
+//Canela
+// @font-face {
+//   font-family: 'Canela';
+//   src: url(/font/Canela-Black-Trial.otf) format('opentype'), url(/font/Canela-Black-Trial.woff) format('woff');
+//   font-weight: 600;
+// }
+@font-face {
+  font-family: 'Canela';
+  src: url(/font/Canela-Regular-Trial.otf) format('opentype'), url(/font/Canela-Regular-Trial.woff) format('woff');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Canela';
+  src: url(/font/Canela-Light-Trial.otf) format('opentype'), url(/font/Canela-Light-Trial.woff) format('woff');
+  font-weight: 400;
+}
+
+//Montreal
+@font-face {
+  @font-face {
+    font-family: 'Montreal';
+    src: url(/font/NeueMontreal-Medium.otf) format('opentype'), url(/font/NeueMontreal-Medium.woff) format('woff');
+    font-weight: 500;
+  }
+  font-family: 'Montreal';
+  src: url(/font/NeueMontreal-Regular.otf) format('opentype'), url(/font/NeueMontreal-Regular.woff) format('woff');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Montreal';
+  src: url(/font/NeueMontreal-Light.otf) format('opentype'), url(/font/NeueMontreal-Light.woff) format('woff');
+  font-weight: 300;
+}

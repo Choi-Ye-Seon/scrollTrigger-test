@@ -1,0 +1,24 @@
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  clip-path: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+.inner {
+  max-width: 1440px;
+  min-width: 320px;
+  padding: 0 2.5rem;
+  margin: 0 auto;
+}
+
+// dark 전환
+html.dark {
+  #header {
+    color: $color-white;
+    .line {
+      background-color: $color-white;
+    }
+  }
+}
